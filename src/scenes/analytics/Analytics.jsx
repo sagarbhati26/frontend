@@ -8,7 +8,7 @@ const Analytics = () => {
     <div>
       <Total/>
       <Apti/>
-      <Pdp/>
+      {/* <Pdp/> */}
       
     </div>
   )

@@ -64,7 +64,9 @@ const Apti = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get('https://jsonplaceholder.typicode.com/users');
-        const dataSet1 = response.data.map((val) => val.id);
+        // const dataSet1 = response.data.map((val) => val.id);
+        const dataSet1 = [3,4,2,45,32,3]
+        console.log("dataSet1:::::", dataSet1);
 
         setData((prevState) => ({
           ...prevState,

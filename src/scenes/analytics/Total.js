@@ -64,7 +64,7 @@ const Total = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const url = 'http://192.168.0.112:3000/getCourseData';
+      const url = 'http://localhost:3000/getCourseData';
 
       try {
         const response = await axios.get(url);

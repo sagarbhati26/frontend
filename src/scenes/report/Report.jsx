@@ -40,7 +40,7 @@ function Report() {
     <div className="mainClass container">
       <div className="heading">
         <h2>
-          Total Questions <span>40</span> <span>Maximum Time <span>60 Minutes</span></span>
+          Total Questions <span>40</span> <span>Maximum Time <span>90 Minutes</span></span>
         </h2>
       </div>
 
@@ -100,13 +100,13 @@ function Report() {
          
         </tbody>
       </table>
-      <div className="container1">
-        <div className="left">
+      <div className="container1" style={{height:"800px"}}>
+        <div className="" >
           <Pdp />
         </div>
-        <div className="right">
+        {/* <div className="right">
           <Apti />
-        </div>
+        </div> */}
       </div>
 
 

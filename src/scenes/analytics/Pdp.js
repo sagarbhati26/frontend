@@ -14,9 +14,9 @@ const options = {
     },
     title: {
       display: true,
-      text: 'Apti marks obtained',
+      text: 'Student Growth',
       font: {
-        size: 18,
+        size: 20,
         weight: 'bold',
       },
     },
@@ -68,7 +68,7 @@ const Pdp = () => {
 
         setData((prevState) => ({
           ...prevState,
-          datasets: [{ ...prevState.datasets[0], data: dataSet1 }],
+          datasets: [{...prevState.datasets[0], data: dataSet1 }],
         }));
       } catch (error) {
         console.log('Error:', error);
@@ -79,8 +79,8 @@ const Pdp = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', maxWidth: '500px', height: '400px', margin: '60px auto' }}>
-      <Line data={data} options={options} />
+    <div style={{ width: '100%', height:"100%", margin: '60px auto' }}>
+      <Line data={data} options={options} style={{height:"500px",width:"500px"}}/>
     </div>
   );
 };
