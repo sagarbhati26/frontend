@@ -1,16 +1,17 @@
 import React from 'react'
-import Total from './Total'
-import Apti from './Apti'
-import Pdp from './Pdp'
+import Totalscoreacard from '../../scorecard/Totalscoreacard'
+import Pdpscorecard from '../../scorecard/Pdpscorecard'
+import Aptiscorecard from '../../scorecard/Aptiscorecard'
+
 
 const Analytics = () => {
   return (
-    <div>
-      <Total/>
-      <Apti/>
-      {/* <Pdp/> */}
-      
-    </div>
+    <>
+    <Totalscoreacard/>
+    <Aptiscorecard/>
+    <Pdpscorecard/>
+    </>
+    
   )
 }
 

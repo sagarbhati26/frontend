@@ -102,7 +102,7 @@ const Total = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', maxWidth: '500px', height: '400px', margin: '60px auto' }}>
+    <div className='graph' style={{ width: '100%', maxWidth: '500px', height: '400px', margin: '60px auto' }}>
       <Bar data={data} options={options} />
     </div>
   );
